@@ -51,7 +51,8 @@ var planeGeometry = new THREE.PlaneGeometry(10, 10, 512, 512);
 var planesMaterial = new THREE.MeshStandardMaterial({
   color: 0xffffff,
   // map: baseColor,
-  normalMap: normalMap,
+  
+  // normalMap: normalMap,
   // normalMapType:  THREE.ObjectSpaceNormalMap,
 
   displacementMap: heightMap,
