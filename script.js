@@ -49,9 +49,9 @@ ambientOcclusionMap = txtLoader.load('assets/ambientOcclusion.jpg');
 // Plane
 var planeGeometry = new THREE.PlaneGeometry(10, 10, 512, 512);
 var planesMaterial = new THREE.MeshStandardMaterial({
-  color: 0xffffff,
+  color: 0x4530af,
   // map: baseColor,
-  
+
   // normalMap: normalMap,
   // normalMapType:  THREE.ObjectSpaceNormalMap,
 
